@@ -4,23 +4,21 @@
   <img src="White and Blue Modern Furniture & Homeware Banner.png" alt="DevOpsShack Banner">
 </div>
 <hr/>
--🚀 MERN Stack 
+- 🚀 MERN stack developer 
 
--Passionate about Web & AI 💻 
-
--Software Engineer
-
--Java Developer 
-
--Python Developer 
-
--Cloud Enthusiast 
-
-🌱 Learning React & AWS 
-Building Cool Projects
+- Passionate about Web & AI 💻
+  
+- 👨‍💻 Software Engineer
+  
+- Java Developer
+  
+- Python Developer
+  
+- Cloud Enthusiast
+  
+- Learning React & AWS Building Cool Projects 
 
 <hr/>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karrigurumurthy533&label=Profile%20views&color=0e75b6&style=flat" alt="karrigurumurthy533" /> </p>
 
 - 👨‍💻 All of my projects are available at
