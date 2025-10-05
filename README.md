@@ -37,12 +37,6 @@
     <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" />
 </div>
 <hr/>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=karrigurumurthy533&show_icons=true&locale=en&layout=compact" alt="karrigurumurthy533" /></p>
-
-
-<hr/>
-
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
