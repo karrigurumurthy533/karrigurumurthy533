@@ -7,11 +7,27 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karrigurumurthy533&label=Profile%20views&color=0e75b6&style=flat" alt="karrigurumurthy533" /> </p>
 
-- 👨‍💻 All of my projects are available at [https://gurumurthy533.github.io/Gkportfolio/](https://gurumurthy533.github.io/Gkportfolio/)
+- 👨‍💻 All of my projects are available at
+- <a href="https://gurumurthy533.github.io/Gkportfolio/" target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+  </a>
+- 📫 How to reach me
+- <a align ="center" 
+    href="mailto:gurumurthykarri0@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
 
-- 📫 How to reach me **gurumurthykarri0@gmail.com**
+- 📄 Know about my experiences
+- <a href="https://linkedin.com/in/pedro-sales-muniz" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  
+- 
 
-- 📄 Know about my experiences [https://my-resume.tiiny.site](https://my-resume.tiiny.site)
+
+
+
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
