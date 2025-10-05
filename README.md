@@ -32,7 +32,6 @@
 <a href="https://instagram.com/https://www.instagram.com/nanikarri0488" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/nanikarri0488" height="30" width="40" /></a>
 </p></hr>
 <h3 align="center">⚒️Languages-Frameworks-Tools ⚒️ <hr/></h3>
-<hr/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git,r" />
     <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" />
