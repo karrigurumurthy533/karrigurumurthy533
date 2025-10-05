@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Gurumurthy Karri</h1>
 <div align="center">
-  <img src="https://github.com/jaiswaladi246/jaiswaladi246/blob/main/Banner.png" alt="DevOpsShack Banner">
+  <img src="White and Blue Modern Furniture & Homeware Banner.png alt="DevOpsShack Banner">
 </div>
 
 <h3 align="center">🚀 MERN Stack | Passionate about Web & AI 💻 Software Engineer | Java | Python | Cloud Enthusiast 🌱 Learning React & AWS | Building Cool Projects</h3>
