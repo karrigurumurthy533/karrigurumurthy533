@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://readme-typingsvg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Gurumurthy Karri!;" />
+<h1 align="center">Hi,there!👋<br/>I'm Gurumurthy Karri!;">
 </h1>
 <div align="center">
   <img src="White and Blue Modern Furniture & Homeware Banner.png" alt="DevOpsShack Banner">
@@ -22,7 +22,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karrigurumurthy533&label=Profile%20views&color=0e75b6&style=flat" alt="karrigurumurthy533" /> </p>
 
 - 👨‍💻 All of my projects are available at
-- <a href="https://gurumurthy533.github.io/Gkportfolio/" target="_blank">
+- <a href="https://karrigurumurthy533.github.io/Gkportfolio/" target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 - 📫 How to reach me
@@ -32,7 +32,7 @@
   </a>
 
 - 📄 Know about my experiences
-- <a href="https://linkedin.com/in/pedro-sales-muniz" target="_blank">
+- <a href="https://linkedin.com/in/gurumurthykarri" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
   <hr/>
