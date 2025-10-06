@@ -2,8 +2,8 @@
 </h1>
 <div align="center">
   <img src="White and Blue Modern Furniture & Homeware Banner.png" alt="DevOpsShack Banner">
+  <hr/>
 </div>
-<hr/>
 - 🚀 MERN stack developer 
 
 - Passionate about Web & AI 💻
@@ -50,7 +50,7 @@
 </div>
 <hr/>
 <h2 align="center">⚡ Stats ⚡</h2>
-<br>
+<hr>
 <div align=center>
   <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=salesp07&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
   <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=salesp07&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
@@ -66,7 +66,7 @@
 
 <div align="center">
   <a href="https://gold-bathsheba-59.tiiny.site " target="_blank">
-     <img src="https://img.shields.io/badge/Resume-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" alt="Hire me" /> <!-
+     <img src="https://img.shields.io/badge/Resume-FF5722?style=for-the-badge&logo=todoist&logoColor=green" target="_blank" alt="Hire me" /> <!-
 </div>
 
 <br/>
