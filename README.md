@@ -65,7 +65,8 @@
 <br/>
 
 <div align="center">
-<a href='https://gold-bathsheba-59.tiiny.site' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://www.flaticon.com/free-icon/curriculum-vitae_909212.svg' border='0' alt='Hire me here' /></a>
+  <a href="https://gold-bathsheba-59.tiiny.site " target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" alt="Hire me" /> <!-
 </div>
 
 <br/>
