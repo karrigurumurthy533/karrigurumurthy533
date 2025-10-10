@@ -1,103 +1,30 @@
-Stateful Authentication Project
+# Stateful Authentication Project
 
-This project demonstrates stateful authentication using Node.js, Express, MongoDB, and EJS. It handles user login sessions using cookies, allowing users to remain logged in across multiple requests until they log out.
+This project demonstrates **stateful authentication** using Node.js, Express, MongoDB, and EJS.  
+It handles user login sessions using cookies, allowing users to remain logged in across multiple requests until they log out.
 
-Features
+## Features
 
-User Registration & Login
-Users can sign up and log in with a username and password.
+- **User Registration & Login**  
+  Users can sign up and log in with a username and password.  
 
-Stateful Sessions
-Sessions are stored on the server using express-session and connect-mongodb-session. Cookies are used to track logged-in users.
+- **Stateful Sessions**  
+  Sessions are stored on the server using `express-session` and `connect-mongodb-session`. Cookies are used to track logged-in users.  
 
-Protected Routes
-Certain routes are accessible only to authenticated users (e.g., Dashboard).
+- **Protected Routes**  
+  Certain routes are accessible only to authenticated users (e.g., Dashboard).  
 
-Logout Functionality
-Users can safely log out, clearing their session.
+- **Logout Functionality**  
+  Users can safely log out, clearing their session.  
 
-Technologies Used
+## Technologies Used
 
-Node.js
+- **Node.js**  
+- **Express.js**  
+- **MongoDB**  
+- **EJS** (Templating engine)  
+- **Tailwind CSS** (Optional styling)  
+- **express-session & connect-mongodb-session** (For session management)  
 
-Express.js
+## Project Structure
 
-MongoDB
-
-EJS (Templating engine)
-
-Tailwind CSS (Optional styling)
-
-express-session & connect-mongodb-session (For session management)
-
-Project Structure
-project/
-│
-├─ models/
-│   └─ User.js           # User schema
-│
-├─ controllers/
-│   └─ authController.js # Authentication logic
-│
-├─ routes/
-│   └─ authRoutes.js     # Login, signup, logout routes
-│
-├─ views/
-│   ├─ login.ejs
-│   ├─ signup.ejs
-│   └─ dashboard.ejs
-│
-├─ public/
-│   └─ css/              # Static styles
-│
-├─ server.js             # Main server file
-└─ package.json
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
-
-
-Install dependencies:
-
-npm install
-
-
-Create a .env file:
-
-MONGO_URI=your_mongodb_connection_string
-SESSION_SECRET=your_secret_key
-PORT=5000
-
-
-Run the server:
-
-npm start
-
-
-Open your browser and navigate to:
-
-http://localhost:5000
-
-How Stateful Authentication Works
-
-Login: User enters credentials. Server validates and creates a session.
-
-Session Storage: Session info is stored in MongoDB via connect-mongodb-session.
-
-Cookie Management: A session cookie is sent to the client, maintaining authentication state.
-
-Access Protected Routes: Server checks session on each request. If valid, grants access.
-
-Logout: Session is destroyed, and cookie is cleared.
-
-Contributing
-
-Feel free to submit issues or pull requests to improve the project.
-
-License
-
-This project is licensed under the MIT License.
