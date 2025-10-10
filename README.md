@@ -2,7 +2,7 @@
 
 This project demonstrates **stateful authentication** using Node.js, Express, MongoDB, and EJS.  
 It handles user login sessions using cookies, allowing users to remain logged in across multiple requests until they log out.
-
+67
 ## Features
 
 - **User Registration & Login**  u
