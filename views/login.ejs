@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font: Outfit -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+          },
+          colors: {
+            primary: '#065F46',   // dark green
+            secondary: '#10B981', // emerald
+            accent: '#A7F3D0',    // soft mint
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gradient-to-br from-emerald-100 via-white to-emerald-50 flex items-center justify-center min-h-screen font-sans">
+
+  <div class="bg-white/90 backdrop-blur-xl shadow-2xl rounded-3xl p-10 w-full max-w-md border border-emerald-100 transition transform hover:scale-[1.01] duration-300">
+    <div class="text-center mb-8">
+      <h2 class="text-4xl font-extrabold text-primary tracking-tight">Welcome Back</h2>
+      <p class="text-gray-500 mt-2 text-sm">Login to continue 🌿</p>
+    </div>
+
+    <% if (message) { %>
+      <p class="text-red-500 text-center mb-4 font-medium"><%= message %></p>
+    <% } %>
+
+    <form action="/login" method="POST" class="space-y-5">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required
+          class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition">
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+        <input type="password" name="password" placeholder="Enter your password" required
+          class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition">
+      </div>
+
+      <button type="submit"
+        class="w-full bg-primary hover:bg-emerald-700 text-white font-semibold py-2.5 rounded-xl transition duration-200 shadow-md hover:shadow-lg">
+        Login
+      </button>
+    </form>
+
+    <p class="text-center text-gray-600 mt-6 text-sm">
+      Don’t have an account?
+      <a href="/signup" class="text-secondary hover:underline font-medium">Sign up</a>
+    </p>
+  </div>
+
+</body>
+</html>

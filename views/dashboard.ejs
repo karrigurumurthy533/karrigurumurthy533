@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font: Outfit -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Outfit', 'sans-serif'] },
+          colors: {
+            primary: '#065F46',   // dark green
+            secondary: '#10B981', // emerald
+            accent: '#A7F3D0',    // soft mint
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gradient-to-br from-emerald-100 via-white to-emerald-50 min-h-screen font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-primary text-white py-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center px-6">
+      <h1 class="text-2xl font-semibold tracking-wide">Student Portal 🌿</h1>
+      <div class="flex items-center gap-4">
+        <span class="font-medium">Hello, <%= user.username || 'Student' %></span>
+        <a href="/logout" class="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-lg text-sm font-medium transition">Logout</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Dashboard -->
+  <main class="container mx-auto mt-10 px-6 space-y-10">
+
+    <!-- Profile & Stats -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- Profile Card -->
+      <div class="bg-white/90 backdrop-blur-xl border border-emerald-100 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-primary mb-3">Profile</h3>
+        <p class="text-gray-700"><strong>Username:</strong> <%= user.username || 'N/A' %></p>
+        <p class="text-gray-700"><strong>Email:</strong> <%= user.email || 'N/A' %></p>
+        <p class="text-gray-700"><strong>Student ID:</strong> <%= user.studentID || 'N/A' %></p>
+      </div>
+
+      <!-- Courses Card -->
+      <div class="bg-white/90 backdrop-blur-xl border border-emerald-100 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-primary mb-3">Enrolled Courses</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <% (user.courses || []).forEach(course => { %>
+            <li><%= course %></li>
+          <% }) %>
+          <% if (!(user.courses && user.courses.length)) { %>
+            <li class="text-gray-500">No courses enrolled</li>
+          <% } %>
+        </ul>
+      </div>
+
+      <!-- Grades Card -->
+      <div class="bg-white/90 backdrop-blur-xl border border-emerald-100 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
+        <h3 class="text-lg font-semibold text-primary mb-3">GPA / Credits</h3>
+        <p class="text-gray-700"><strong>GPA:</strong> <%= user.gpa || 'N/A' %></p>
+        <p class="text-gray-700"><strong>Completed Credits:</strong> <%= user.credits || 0 %></p>
+      </div>
+
+    </div>
+
+    <!-- Upcoming Assignments -->
+    <div class="bg-white/90 backdrop-blur-xl border border-emerald-100 rounded-2xl p-6 shadow-md hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold text-primary mb-4">Upcoming Assignments</h3>
+      <ul class="divide-y divide-gray-200">
+        <% (user.assignments || []).forEach(assign => { %>
+          <li class="py-3 flex justify-between">
+            <span class="text-gray-700"><%= assign.title %> - <%= assign.course %></span>
+            <span class="text-sm text-gray-500"><%= new Date(assign.dueDate).toLocaleDateString() %></span>
+          </li>
+        <% }) %>
+        <% if (!(user.assignments && user.assignments.length)) { %>
+          <li class="py-3 text-gray-500">No upcoming assignments 🎉</li>
+        <% } %>
+      </ul>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="/profile" class="bg-secondary hover:bg-emerald-600 text-white px-6 py-3 rounded-2xl text-center font-medium shadow-md hover:shadow-lg transition">Edit Profile</a>
+      <a href="/courses" class="bg-secondary hover:bg-emerald-600 text-white px-6 py-3 rounded-2xl text-center font-medium shadow-md hover:shadow-lg transition">View Courses</a>
+      <a href="/settings" class="bg-secondary hover:bg-emerald-600 text-white px-6 py-3 rounded-2xl text-center font-medium shadow-md hover:shadow-lg transition">Settings</a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-600 mt-10 mb-6 text-sm">
+    © <%= new Date().getFullYear() %> Student Portal | Built with 💚 using Node.js & EJS
+  </footer>
+
+</body>
+</html>
