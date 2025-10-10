@@ -83,23 +83,22 @@ Open your browser and navigate to:
 http://localhost:5000
 
 
-<h3>How Stateful Authentication Works
+## How Stateful Authentication Works
 
-Login: User enters credentials. Server validates and creates a session.
+1. **Login**: User enters credentials. Server validates and creates a session.  
+2. **Session Storage**: Session info is stored in MongoDB via `connect-mongodb-session`.  
+3. **Cookie Management**: A session cookie is sent to the client.  
+4. **Access Protected Routes**: Server checks session on each request.  
+5. **Logout**: Session is destroyed and cookie cleared.  
 
-Session Storage: Session info is stored in MongoDB via connect-mongodb-session.
+---
 
-Cookie Management: A session cookie is sent to the client, maintaining authentication state.
+## Contributing
 
-Access Protected Routes: Server checks session on each request. If valid, grants access.
+Contributions are welcome! You can:
 
-Logout: Session is destroyed, and cookie is cleared.
-
-Contributing
-
-Feel free to submit issues or pull requests to improve the project.
-
-License
-
-This project is licensed under the MIT License.
+1. Fork the repository  
+2. Create a new branch:  
+   ```bash
+   git checkout -b feature/YourFeature
 
