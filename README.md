@@ -54,7 +54,7 @@ project/
 
 ## Installation
 
-1. Clone the repository:
+##1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/your-repo.git
@@ -82,7 +82,8 @@ Open your browser and navigate to:
 
 http://localhost:5000
 
-How Stateful Authentication Works
+
+<h3>How Stateful Authentication Works
 
 Login: User enters credentials. Server validates and creates a session.
 
