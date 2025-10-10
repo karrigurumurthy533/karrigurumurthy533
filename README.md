@@ -5,7 +5,7 @@ It handles user login sessions using cookies, allowing users to remain logged in
 
 ## Features
 
-- **User Registration & Login**  u
+- **User Registration & Login**  
   Users can sign up and log in with a username and password.  
 
 - **Stateful Sessions**  
