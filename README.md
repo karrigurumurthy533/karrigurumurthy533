@@ -1,5 +1,6 @@
 <h1 align="center">Hi,👋I'm Gurumurthy Karri
 </h1>
+<img src="White and Blue Modern Furniture & Homeware Banner.png"/>
 - 🚀 MERN stack developer 
 
 - Passionate about Web & AI 💻
