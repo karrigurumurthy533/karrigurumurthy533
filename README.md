@@ -18,7 +18,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karrigurumurthy533&label=Profile%20views&color=0e75b6&style=flat" alt="karrigurumurthy533" /> </p>
 
 - 👨‍💻 All of my projects are available at
-- <a href="https://karrigurumurthy533.github.io/Gkportfolio/" target="_blank">
+- <a href="https://guru-portfolio-olive.vercel.app/ " target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 - 📫 How to reach me
